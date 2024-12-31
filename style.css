@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.game-area {
+    width: 700px;
+    height: 400px;
+    background: linear-gradient(180deg, #282828, #121212);
+    border: 3px solid #0dcaf0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.paddle {
+    width: 15px;
+    height: 100px;
+    background-color: #0dcaf0;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 15px rgba(255, 193, 7, 0.8);
+}
+
+.scoreboard {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #0dcaf0;
+}
